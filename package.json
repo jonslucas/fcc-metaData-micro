@@ -1,0 +1,19 @@
+{
+  "name": "metadata-micro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jon Lucas",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.4"
+  },
+  "devDependencies": {
+    "cssmin": "^0.4.3",
+    "eslint": "^2.2.0",
+    "node-sass": "^3.4.2"
+  }
+}
