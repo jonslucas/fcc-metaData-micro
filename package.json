@@ -9,7 +9,8 @@
   "author": "Jon Lucas",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "multer": "^1.1.0"
   },
   "devDependencies": {
     "cssmin": "^0.4.3",
