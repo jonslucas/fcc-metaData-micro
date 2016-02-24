@@ -4,7 +4,9 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": " eslint **.js",
+    "build:css":"node-sass ./public/css/main.scss | cssmin > ./public/css/main.min.css",
+    "dev": "npm run lint && npm run build:css && npm start"
   },
   "author": "Jon Lucas",
   "license": "ISC",

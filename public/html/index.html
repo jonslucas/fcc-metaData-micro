@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <title>FCC - metaData Micro</title>
+    <link rel="stylesheet" type="text/css" href="/public/css/main.min.css" />
 </head>
 <body>
-    <div>
-        Here is some test text!
-    </div>
-    <div>
+    <div class="container">
+        <div class="header">
+            freeCodeCamp <span>metaData microService</span>
+        </div>
+        <div class="info">
+            Use the buttons below to upload a file to the server.  It will respond with the file's name and its size in JSON format.
+        </div>
         <form method="post" enctype="multipart/form-data" action="/">
             <input type="file" name="file"/>
             <input type="submit" />

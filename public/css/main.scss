@@ -1,0 +1,31 @@
+$fontRoot: 'https://fonts.googleapis.com/css?family=';
+@import url($fontRoot+'Open+Sans');
+@import url($fontRoot+'Lato');
+@import url($fontRoot+'Roboto+Condensed');
+
+.container {
+  width: 35em;
+  margin: 0 auto;
+  font-size: 1.2em;
+}
+.header {
+  font-size: 3em;
+  margin-bottom: 20px;
+  border-bottom: .2em solid black;
+  font-family: 'Open Sans', sans-serif;
+  span {
+    display: block;
+    font-style: italic;
+  }
+}
+.info {
+  padding: 2em 0;
+  font-size: 1em;
+  font-family: 'Lato', sans-serif;
+}
+form {
+  input {
+    font-size: 1em;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+}
